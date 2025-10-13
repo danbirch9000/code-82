@@ -1,0 +1,56 @@
+<template>
+  <div class="px-6 py-20 max-w-4xl mx-auto">
+    <header class="mb-12 text-center">
+      <img src="/assets/code-82-logo-d.png" alt="Code 82 Ltd logo" class="mx-auto w-32 mb-4">
+      <h1 class="text-3xl font-bold mb-2 text-[var(--davys)]">LexisOne – Privacy Policy</h1>
+      <p class="text-sm text-[var(--davys)]">Last updated: October 2025</p>
+    </header>
+
+    <main class="prose max-w-none text-[var(--paynes)] leading-relaxed">
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy explains how Code 82 Ltd (“we”, “our”, “us”) collects, uses, and protects your information when you use the LexisOne mobile app (“the App”).</p>
+
+      <h2>2. Information We Collect</h2>
+      <ul>
+        <li>Email address and password (for account creation via Firebase Authentication)</li>
+        <li>User preferences (native language, learning language, CEFR level)</li>
+        <li>Lens allowance (remaining credits)</li>
+      </ul>
+      <p>We do not collect or store any text you enter into AI features, nor the AI-generated outputs themselves.</p>
+
+      <h2>3. How We Use Your Information</h2>
+      <p>We use your data only to authenticate users, manage credits and preferences, and support essential app functionality. We do not use your data for advertising, tracking, or analytics.</p>
+
+      <h2>4. AI Services</h2>
+      <p>LexisOne uses <strong>OpenAI</strong> technology to generate, translate, and simplify text. When you request a Lens or Focus, your text is securely sent to OpenAI’s servers to generate a response. The text is processed temporarily and not stored by us. OpenAI may retain limited data for a short period as described in their <a href="https://openai.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+
+      <h2>5. Data Storage and Security</h2>
+      <p>All user data (email, preferences, and credits) is stored in Google Firebase Firestore, hosted in the EU or UK where possible. Passwords are encrypted and never visible to us. We apply industry-standard security measures, but no online service can guarantee absolute protection.</p>
+
+      <h2>6. Data Sharing</h2>
+      <p>We do not sell, rent, or share your data with third parties for marketing. Data is shared only with essential service providers (Firebase by Google and OpenAI) who act as processors under GDPR.</p>
+
+      <h2>7. Your Rights (GDPR)</h2>
+      <p>You have the right to access, correct, or delete your data and to withdraw consent. To exercise your rights, contact <a href="mailto:info@code-82.com">info@code-82.com</a>. We will respond within 30 days.</p>
+
+      <h2>8. Data Retention</h2>
+      <p>We keep your account information only while your account is active. If you delete your account, all data will be permanently removed within 30 days.</p>
+
+      <h2>9. Children’s Privacy</h2>
+      <p>LexisOne is suitable for general audiences and has no specific age restriction. We do not knowingly collect information from children under 13. Parents and guardians should supervise younger users.</p>
+
+      <h2>10. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. If significant changes are made, we will notify you through the App or by email. The “Last updated” date indicates the latest version.</p>
+
+      <h2>11. Contact Us</h2>
+      <p>📧 <a href="mailto:info@code-82.com">info@code-82.com</a><br>🏢 Code 82 Ltd, Halifax, United Kingdom</p>
+    </main>
+
+    <footer class="mt-16 text-center text-sm text-[var(--davys)]">
+      © 2025 Code 82 Ltd · All rights reserved
+    </footer>
+  </div>
+</template>
+
+<script setup>
+</script>
