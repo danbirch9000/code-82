@@ -10,7 +10,15 @@
       background-position: center;
     ">
       <div class="max-w-4xl mx-auto text-center">
-        <img src="/assets/code-82-logo-d.png" alt="Code 82 Ltd company logo" class="mx-auto mb-6 w-80 md:w-[28rem]">
+        <img
+            :src="logo"
+            alt="Code 82 Ltd company logo"
+            class="mx-auto mb-6 w-80 md:w-[28rem]"
+            style="filter:
+  drop-shadow(0 6px 15px rgba(0,0,0,0.5))
+  drop-shadow(0 0 8px rgba(255,255,255,0.2));"
+
+        />
         <h1 class="text-4xl font-bold mb-6 text-[var(--davys)]">
           Independent JavaScript Contracting & AI-Powered Web Development
         </h1>
@@ -179,4 +187,5 @@
 </template>
 
 <script setup>
+import logo from '/assets/logo.svg'
 </script>
