@@ -5,9 +5,7 @@
         <img src="/assets/code-82-logo-d.png" alt="Code 82 Ltd logo" class="max-h-12 w-auto object-contain">
       </RouterLink>
       <nav class="text-sm text-[var(--paynes)] flex items-center gap-4 sm:gap-6">
-        <RouterLink to="/lexone" class="hover:underline">LexOne</RouterLink>
-        <RouterLink to="/lexis-one-terms" class="hover:underline">Terms</RouterLink>
-        <RouterLink to="/lexis-one-privacy" class="hover:underline">Privacy</RouterLink>
+        <RouterLink to="/lexone" class="hover:underline">LexisOne</RouterLink>
         <a href="mailto:info@code-82.com" class="hover:underline">info@code-82.com</a>
       </nav>
     </div>

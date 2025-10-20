@@ -21,7 +21,7 @@
         </p>
         <a href="mailto:info@code-82.com" class="btn-custom px-6 py-3 rounded">Get in Touch</a>
         <p class="mt-6 text-sm text-[var(--davys)]">
-          📱 For support with <strong>LexOne iOS</strong>, please email
+          📱 For support with <strong>LexisOne iOS</strong>, please email
           <a href="mailto:info@code-82.com" class="underline hover:text-[var(--paynes)]">info@code-82.com</a>.
         </p>
       </div>
@@ -157,14 +157,14 @@
     <section class="py-20 bg-[var(--nyanza)] px-6">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Coming Soon: LexOne iOS App</h2>
+          <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Coming Soon: LexisOne iOS App</h2>
           <p class="leading-relaxed mb-6 text-[var(--paynes)]">
-            Code 82 Ltd is developing <strong>LexOne</strong> — an iOS app designed to make language learning easier and more engaging with AI-driven explanations and translations.
+            Code 82 Ltd is developing <strong>LexisOne</strong> — an iOS app designed to make language learning easier and more engaging with AI-driven explanations and translations.
           </p>
           <a href="mailto:info@code-82.com" class="btn-custom px-6 py-3 rounded">Get in Touch</a>
         </div>
         <div>
-          <img src="/assets/app-cafe.png" alt="Preview of the upcoming LexOne iOS app" class="rounded shadow mx-auto">
+          <img src="/assets/app-cafe.png" alt="Preview of the upcoming LexisOne iOS app" class="rounded shadow mx-auto">
         </div>
       </div>
     </section>

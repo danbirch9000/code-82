@@ -1,0 +1,77 @@
+version: '3'
+
+# Taskfile for go-task (https://taskfile.dev)
+# Provides common workflows: install deps, run dev server, build, preview,
+# and deploy to Netlify using the Netlify CLI via npx (no global install required).
+
+vars:
+  # Optional: set a Netlify site ID to deploy to without linking
+  SITE_ID: ''
+  # Alias/name to use for preview (non-prod) deploys
+  ALIAS: 'preview'
+
+tasks:
+  default:
+    desc: Show available tasks
+    cmds:
+      - task --list
+
+  install:
+    desc: Install npm dependencies
+    cmds:
+      - npm install
+
+  dev:
+    desc: Start Vite dev server
+    cmds:
+      - npm run dev
+    env:
+      NODE_ENV: development
+
+  build:
+    desc: Build the site for production (outputs to dist/)
+    cmds:
+      - npm run build
+    env:
+      NODE_ENV: production
+
+  preview:
+    desc: Preview the production build locally (serves dist/)
+    cmds:
+      - npm run preview
+
+  # --- Netlify tasks ---
+  netlify:login:
+    desc: Authenticate with Netlify (opens browser)
+    cmds:
+      - npx netlify login
+
+  netlify:link:
+    desc: Link this folder to a Netlify site (choose existing or create new)
+    cmds:
+      - npx netlify link
+
+  netlify:dev:
+    desc: Run local Netlify dev server (uses netlify.toml). Proxies functions, redirects, etc.
+    cmds:
+      - npx netlify dev --port 5173
+
+  netlify:deploy:preview:
+    desc: Build and deploy a preview (draft) to Netlify with an alias ({{.ALIAS}})
+    silent: false
+    cmds:
+      - |
+        set -e
+        SITE_FLAG=""
+        if [ -n "{{.SITE_ID}}" ]; then SITE_FLAG="--site {{.SITE_ID}}"; fi
+        npx netlify deploy --build --alias "{{.ALIAS}}" $SITE_FLAG
+
+  netlify:deploy:
+    desc: Build and deploy the production site to Netlify (prod)
+    silent: false
+    cmds:
+      - |
+        set -e
+        SITE_FLAG=""
+        if [ -n "{{.SITE_ID}}" ]; then SITE_FLAG="--site {{.SITE_ID}}"; fi
+        npx netlify deploy --build --prod $SITE_FLAG

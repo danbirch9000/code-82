@@ -1,111 +1,147 @@
 <template>
   <div>
     <!-- Header spacing handled by layout -->
-
     <!-- Hero -->
-    <section class="hero px-6 pt-12"
-             style="
-        min-height: 90vh;
-        display: flex; align-items: center; justify-content: center;
-        background-image: linear-gradient(rgba(214,248,214,0.9), rgba(214,248,214,0.9)), url('https://picsum.photos/1600/1000?random=1');
-        background-size: cover; background-position: center; text-align: center;
-      ">
-      <div class="max-w-3xl mx-auto">
-        <h1 class="text-5xl font-bold mb-6 text-[var(--davys)]">LexOne</h1>
-        <p class="text-xl mb-6 leading-relaxed text-[var(--paynes)]">
-          Build a habit of reading in your target language every day.
-          Generate or copy content, see your native language alongside, and use AI to guide you.
-        </p>
+    <section class="px-6 pt-12 flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8"
+             style="min-height: 70vh; background-color: #D6F8D6;">
+
+      <!-- Static Image (Left) -->
+      <div class="w-full max-w-xs flex-shrink-0 md:order-1">
+        <img src="/assets/screens/hero.png" alt="LexisOne preview" class="rounded shadow mx-auto w-full">
       </div>
+
+      <!-- Text (Right) -->
+      <div class="max-w-xl md:order-2">
+        <h1 class="text-5xl font-bold mb-6 text-[var(--davys)]">LexisOne</h1>
+        <p class="text-xl leading-relaxed text-[var(--paynes)]">
+          Stop guessing what to read — LexisOne gives you a fresh Story at your level every day. Whether you generate one with AI or paste in content you’ve found elsewhere, you’ll always see both the original language and your native language side by side, with instant help when you need it.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 text-3xl">
+          <span>🇬🇧</span>
+          <span>🇺🇸</span>
+          <span>🇫🇷</span>
+          <span>🇪🇸</span>
+          <span>🇵🇹</span>
+          <span>🇧🇷</span>
+          <span>🇮🇹</span>
+          <span>🇩🇪</span>
+          <span>🇬🇷</span>
+          <span>🇯🇵</span>
+          <span>🇰🇷</span>
+          <span>🇨🇳</span>
+          <span>🇷🇺</span>
+          <span>🇹🇷</span>
+          <span>🇮🇳</span>
+          <span>🇸🇦</span>
+        </div>
+      </div>
+
     </section>
 
-    <!-- Daily Reading -->
+
+
+
+
+
+    <!-- Something New, Every Day -->
     <section class="py-20 px-6 bg-[var(--nyanza)]">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">📖 Daily Reading Habit</h2>
+          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Something New, Every Day</h2>
           <p class="leading-relaxed text-[var(--paynes)]">
-            Language learning thrives on consistency. LexOne helps you read something in your target language every day — whether it’s generated content at your level or your own chosen material. With small, manageable texts, daily progress becomes second nature.
+            Open the app and generate a fresh Story at your level — no scrolling, no filters, no decision-making.
+            Each Story is short, readable in a few minutes, and designed to build momentum instead of guilt.
+            You don’t need motivation. You just open and read.
           </p>
         </div>
         <div>
-          <img src="https://picsum.photos/600/400?random=3" alt="Reading habit example" class="rounded shadow mx-auto">
+          <img src="/assets/screens/Frame%202.png" alt="Daily reading feed" class="rounded shadow mx-auto max-w-xs">
         </div>
       </div>
     </section>
 
-    <!-- Level-Adjusted Content -->
+    <!-- Create Stories Made for Your Level -->
     <section class="py-20 px-6 bg-white">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div class="order-2 md:order-1">
-          <img src="https://picsum.photos/600/400?random=4" alt="CEFR level content example" class="rounded shadow mx-auto">
+          <img src="/assets/screens/Frame%203.png" alt="Create level-based stories" class="rounded shadow mx-auto max-w-xs">
         </div>
         <div class="order-1 md:order-2">
-          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">🎯 Level-Adjusted Content</h2>
+          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Create Stories Made for Your Level</h2>
           <p class="leading-relaxed text-[var(--paynes)]">
-            Choose your CEFR level (A1–C1) and word count. LexOne generates content that matches your ability, keeping learning challenging but achievable. Whether you’re a beginner or advanced learner, you’ll always find material that suits you.
+            LexisOne generates unique, level-appropriate Stories written exactly for your ability.
+            You’re never overwhelmed, and never bored — the difficulty is calibrated to push you just enough to grow.
+            Prefer real-world content? Copy and paste any article, passage, or social post — LexisOne will instantly rewrite it at your level.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Bring Your Own Text -->
+    <!-- Guide the AI with Your Own Ideas -->
     <section class="py-20 px-6 bg-[var(--nyanza)]">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">✍️ Bring Your Own Text</h2>
+          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Guide the AI with Your Own Ideas</h2>
           <p class="leading-relaxed text-[var(--paynes)]">
-            Already have a passage, news article, or story you want to study? Copy it into LexOne, and the app will create a Lens at a suitable level, complete with translation and AI support. Perfect for turning everyday content into learning opportunities.
+            Prefer to choose your own topic? Just describe it in a sentence — “A café conversation in Lisbon”, “A space mission”,
+            or “A news report about tech”. LexisOne builds a Story that fits your prompt and your level.
+            You stay motivated because you’re reading what you actually care about.
           </p>
         </div>
         <div>
-          <img src="https://picsum.photos/600/400?random=5" alt="User adding custom text" class="rounded shadow mx-auto">
+          <img src="/assets/screens/Frame%204.png" alt="Custom text creation" class="rounded shadow mx-auto max-w-xs">
         </div>
       </div>
     </section>
 
-    <!-- What is a Lens -->
+    <!-- What does a Story look like? -->
     <section class="py-20 px-6 bg-white text-center">
       <div class="max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">🔎 What is a Lens?</h2>
+        <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">What does a Story look like?</h2>
         <p class="leading-relaxed text-[var(--paynes)]">
-          A Lens is your personal study session — <br>
-          <strong>Target language text + Native language text + AI support</strong> all in one.
-          Save your Lenses, return to them anytime, and build your library of daily learning.
+          A Story shows your target language at the top, with your native language visible whenever you need support.
+          Read smoothly in one view or switch between modes depending on how confident you feel.
+          No more copy-pasting into Google Translate — everything you need is right there.
         </p>
+        <img src="/assets/screens/Frame%205.png" alt="Reading story view" class="rounded shadow mx-auto max-w-xs mt-8">
       </div>
     </section>
 
-    <!-- AI Explanations -->
+    <!-- Tap to Understand Anything -->
     <section class="py-20 px-6 bg-[var(--nyanza)]">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <img src="https://picsum.photos/600/400?random=6" alt="Focus explanations example" class="rounded shadow mx-auto">
+          <img src="/assets/screens/Frame%208.png" alt="AI explanation view" class="rounded shadow mx-auto max-w-xs">
         </div>
         <div>
-          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">⚡ AI Explanations</h2>
+          <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Tap to Understand Anything</h2>
           <p class="leading-relaxed text-[var(--paynes)]">
-            Tap on words or sentences to create a <strong>Focus</strong>. Each Focus provides meaning in context, grammar breakdowns, and cultural nuance. With AI at your side, difficult passages turn into clear, memorable lessons.
+            Long-press any word or phrase to get explanations in context — not just dictionary definitions.
+            AI explains grammar, highlights idioms, and tells you why it’s written that way,
+            so you remember more from each passage. Confusion becomes clarity in one tap.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Multilingual -->
+    <!-- Choose the Language You Love -->
     <section class="py-20 px-6 bg-white text-center">
       <div class="max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">🌍 Multilingual Support</h2>
+        <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Choose the Language You Love</h2>
         <p class="leading-relaxed text-[var(--paynes)]">
-          LexOne is available in multiple languages — both as your <em>native</em> and your <em>target</em> language. This flexibility means learners worldwide can benefit, no matter their starting point or goal.
+          Use LexisOne whether you’re learning Spanish, Portuguese, French, or another supported language.
+          Select your native and target language once, and switch display modes whenever you want.
+          It adapts to you — not the other way around.
         </p>
+        <img src="/assets/screens/Frame%2010.png" alt="Language selection" class="rounded shadow mx-auto max-w-xs mt-8">
       </div>
     </section>
 
     <!-- Coming Soon -->
     <section class="py-20 px-6 bg-[var(--nyanza)] text-center">
-      <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">📱 Coming Soon on iOS</h2>
+      <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Coming Soon on iOS</h2>
       <p class="max-w-2xl mx-auto text-[var(--paynes)] leading-relaxed">
-        LexOne will launch in 2025. Read, translate, and explore languages with AI-powered support that adapts to your level and learning style.
+        LexisOne launches in 2025. Real reading. Real comprehension. Real progress — without textbooks.
       </p>
     </section>
   </div>
