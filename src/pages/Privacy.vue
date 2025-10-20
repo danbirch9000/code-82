@@ -1,7 +1,6 @@
 <template>
   <div class="px-6 py-20 max-w-4xl mx-auto">
     <header class="mb-12 text-center">
-      <img src="/assets/code-82-logo-d.png" alt="Code 82 Ltd logo" class="mx-auto w-32 mb-4">
       <h1 class="text-3xl font-bold mb-2 text-[var(--davys)]">LexisOne – Privacy Policy</h1>
       <p class="text-sm text-[var(--davys)]">Last updated: October 2025</p>
     </header>

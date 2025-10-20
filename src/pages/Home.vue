@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <section class="hero min-h-screen flex items-center justify-center px-6 pt-20"
+    <section class="hero min-h-screen flex items-center justify-center px-6"
              style="
       background-image:
         linear-gradient(rgba(214,248,214,0.9), rgba(214,248,214,0.9)),
@@ -187,5 +187,5 @@
 </template>
 
 <script setup>
-import logo from '/assets/logo.svg'
+import logo from '/assets/logo-grey.svg'
 </script>
