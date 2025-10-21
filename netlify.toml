@@ -4,7 +4,7 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/lexone"
+  from = "/lexisone"
   to = "/index.html"
   status = 200
 
