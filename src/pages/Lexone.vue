@@ -1,22 +1,58 @@
 <template>
+  <!--  https://apps.apple.com/gb/app/lexisone/id6753789913 -->
   <div>
-    <!-- Header spacing handled by layout -->
     <!-- Hero -->
-    <section class="px-6 pt-12 flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8"
-             style="min-height: 70vh; background-color: #D6F8D6;">
-
+    <section
+        class="px-6 pt-12 flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8"
+        style="min-height: 70vh; background-color: #D6F8D6;"
+    >
       <!-- Static Image (Left) -->
       <div class="w-full max-w-xs flex-shrink-0 md:order-1">
-        <img src="/assets/screens/hero.png" alt="LexisOne preview" class="rounded shadow mx-auto w-full">
+        <img
+            src="/assets/screens/hero.png"
+            alt="LexisOne preview"
+            class="iphone-rounded mx-auto w-full"
+        />
       </div>
 
       <!-- Text (Right) -->
       <div class="max-w-xl md:order-2">
-        <h1 class="text-5xl font-bold mb-6 text-[var(--davys)]">LexisOne</h1>
-        <p class="text-xl leading-relaxed text-[var(--paynes)]">
-          Stop guessing what to read — LexisOne gives you a fresh Story at your level every day. Whether you generate one with AI or paste in content you’ve found elsewhere, you’ll always see both the original language and your native language side by side, with instant help when you need it.
+        <h1 class="text-5xl font-bold mb-2 text-[var(--davys)]">LexisOne</h1>
+        <p class="italic text-[var(--paynes)] mb-6">
+          Whether you’re an English speaker learning Spanish, a German speaker learning French, or anyone learning any language — <strong>LexisOne</strong> is for you.
         </p>
-        <div class="flex flex-wrap justify-center gap-4 text-3xl">
+        <p class="text-xl leading-relaxed text-[var(--paynes)]">
+          Stop guessing what to read — <strong>LexisOne</strong> gives you a fresh Story at your level every day.
+          Whether you generate one with <em>AI</em> or paste in content you’ve found elsewhere, you’ll always see
+          both the <strong>original language</strong> and your <strong>native language</strong> side by side,
+          with <em>instant help</em> when you need it.
+        </p>
+        <p class="text-xl leading-relaxed text-[var(--paynes)]">
+          Whether you’re an <strong>English speaker learning Spanish</strong>, a <strong>German speaker learning French</strong>,
+          or anyone exploring a new language, <strong>LexisOne</strong> adapts to you —
+          <em>bridging the gap between understanding and fluency.</em>
+        </p>
+
+        <!-- Download Buttons -->
+        <div class="mt-8 flex flex-col sm:flex-row items-center gap-4">
+          <a
+              href="https://apps.apple.com/gb/app/lexisone/id6753789913"
+              target="_blank"
+              rel="noopener"
+          >
+            <img
+                src="/assets/badges/appstore-badge.svg"
+                alt="Download on the App Store"
+                class="h-14"
+            />
+          </a>
+          <div class="text-[var(--paynes)] text-lg italic">
+            Coming soon to Android 📱
+          </div>
+        </div>
+
+        <!-- Flags -->
+        <div class="flex flex-wrap justify-center md:justify-start gap-4 text-3xl mt-6">
           <span>🇬🇧</span>
           <span>🇺🇸</span>
           <span>🇫🇷</span>
@@ -35,13 +71,7 @@
           <span>🇸🇦</span>
         </div>
       </div>
-
     </section>
-
-
-
-
-
 
     <!-- Something New, Every Day -->
     <section class="py-20 px-6 bg-[var(--nyanza)]">
@@ -55,7 +85,11 @@
           </p>
         </div>
         <div>
-          <img src="/assets/screens/Frame%202.png" alt="Daily reading feed" class="rounded shadow mx-auto max-w-xs">
+          <img
+              src="/assets/screens/Frame%202.png"
+              alt="Daily reading feed"
+              class="iphone-rounded mx-auto max-w-xs"
+          />
         </div>
       </div>
     </section>
@@ -64,12 +98,16 @@
     <section class="py-20 px-6 bg-white">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div class="order-2 md:order-1">
-          <img src="/assets/screens/Frame%203.png" alt="Create level-based stories" class="rounded shadow mx-auto max-w-xs">
+          <img
+              src="/assets/screens/Frame%203.png"
+              alt="Create level-based stories"
+              class="iphone-rounded mx-auto max-w-xs"
+          />
         </div>
         <div class="order-1 md:order-2">
           <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Create Stories Made for Your Level</h2>
           <p class="leading-relaxed text-[var(--paynes)]">
-            LexisOne generates unique, level-appropriate Stories written exactly for your ability.
+            <strong>LexisOne</strong> generates unique, level-appropriate Stories written exactly for your ability.
             You’re never overwhelmed, and never bored — the difficulty is calibrated to push you just enough to grow.
             Prefer real-world content? Copy and paste any article, passage, or social post — LexisOne will instantly rewrite it at your level.
           </p>
@@ -84,12 +122,16 @@
           <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Guide the AI with Your Own Ideas</h2>
           <p class="leading-relaxed text-[var(--paynes)]">
             Prefer to choose your own topic? Just describe it in a sentence — “A café conversation in Lisbon”, “A space mission”,
-            or “A news report about tech”. LexisOne builds a Story that fits your prompt and your level.
+            or “A news report about tech”. <strong>LexisOne</strong> builds a Story that fits your prompt and your level.
             You stay motivated because you’re reading what you actually care about.
           </p>
         </div>
         <div>
-          <img src="/assets/screens/Frame%204.png" alt="Custom text creation" class="rounded shadow mx-auto max-w-xs">
+          <img
+              src="/assets/screens/Frame%204.png"
+              alt="Custom text creation"
+              class="iphone-rounded mx-auto max-w-xs"
+          />
         </div>
       </div>
     </section>
@@ -103,7 +145,11 @@
           Read smoothly in one view or switch between modes depending on how confident you feel.
           No more copy-pasting into Google Translate — everything you need is right there.
         </p>
-        <img src="/assets/screens/Frame%205.png" alt="Reading story view" class="rounded shadow mx-auto max-w-xs mt-8">
+        <img
+            src="/assets/screens/Frame%205.png"
+            alt="Reading story view"
+            class="iphone-rounded mx-auto max-w-xs mt-8"
+        />
       </div>
     </section>
 
@@ -111,7 +157,11 @@
     <section class="py-20 px-6 bg-[var(--nyanza)]">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <img src="/assets/screens/Frame%208.png" alt="AI explanation view" class="rounded shadow mx-auto max-w-xs">
+          <img
+              src="/assets/screens/Frame%208.png"
+              alt="AI explanation view"
+              class="iphone-rounded mx-auto max-w-xs"
+          />
         </div>
         <div>
           <h2 class="text-3xl font-bold mb-4 text-[var(--davys)]">Tap to Understand Anything</h2>
@@ -129,23 +179,26 @@
       <div class="max-w-3xl mx-auto">
         <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Choose the Language You Love</h2>
         <p class="leading-relaxed text-[var(--paynes)]">
-          Use LexisOne whether you’re learning Spanish, Portuguese, French, or another supported language.
+          Use <strong>LexisOne</strong> whether you’re learning Spanish, Portuguese, French, or another supported language.
           Select your native and target language once, and switch display modes whenever you want.
           It adapts to you — not the other way around.
         </p>
-        <img src="/assets/screens/Frame%2010.png" alt="Language selection" class="rounded shadow mx-auto max-w-xs mt-8">
+        <img
+            src="/assets/screens/Frame%2010.png"
+            alt="Language selection"
+            class="iphone-rounded mx-auto max-w-xs mt-8"
+        />
       </div>
-    </section>
-
-    <!-- Coming Soon -->
-    <section class="py-20 px-6 bg-[var(--nyanza)] text-center">
-      <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Coming Soon on iOS</h2>
-      <p class="max-w-2xl mx-auto text-[var(--paynes)] leading-relaxed">
-        LexisOne launches in 2025. Real reading. Real comprehension. Real progress — without textbooks.
-      </p>
     </section>
   </div>
 </template>
 
-<script setup>
-</script>
+<style scoped>
+.iphone-rounded {
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+</style>
+
+<script setup lang="ts"></script>
