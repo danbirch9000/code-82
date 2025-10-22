@@ -4,7 +4,7 @@
     <section class="hero min-h-screen flex items-center justify-center px-6"
              style="
       background-image:
-        linear-gradient(rgba(214,248,214,0.9), rgba(214,248,214,0.9)),
+        linear-gradient(var(--nyanza-90), var(--nyanza-90)),
         url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=1600');
       background-size: cover;
       background-position: center;
@@ -15,8 +15,8 @@
             alt="Code 82 Ltd company logo"
             class="mx-auto mb-6 w-80 md:w-[28rem]"
             style="filter:
-  drop-shadow(0 6px 15px rgba(0,0,0,0.5))
-  drop-shadow(0 0 8px rgba(255,255,255,0.2));"
+  drop-shadow(0 6px 15px var(--black-50))
+  drop-shadow(0 0 8px var(--white-20));"
 
         />
         <h1 class="text-4xl font-bold mb-6 text-[var(--davys)]">

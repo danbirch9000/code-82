@@ -4,7 +4,7 @@
     <!-- Hero -->
     <section
         class="px-6 pt-12 flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8"
-        style="min-height: 70vh; background-color: #D6F8D6;"
+        style="min-height: 70vh; background-color: var(--nyanza);"
     >
       <!-- Static Image (Left) -->
       <div class="w-full max-w-xs flex-shrink-0 md:order-1">
@@ -197,7 +197,7 @@
 .iphone-rounded {
   border-radius: 2rem;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px var(--black-10);
 }
 </style>
 
