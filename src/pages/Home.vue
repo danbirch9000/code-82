@@ -161,21 +161,40 @@
       </div>
     </section>
 
-    <!-- Coming Soon -->
     <section class="py-20 bg-[var(--nyanza)] px-6">
       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">Coming Soon: LexisOne iOS App</h2>
+          <h2 class="text-3xl font-bold mb-6 text-[var(--davys)]">LexisOne — Now Live on the App Store</h2>
           <p class="leading-relaxed mb-6 text-[var(--paynes)]">
-            Code 82 Ltd is developing <strong>LexisOne</strong> — an iOS app designed to make language learning easier and more engaging with AI-driven explanations and translations.
+            <strong>Code 82 Ltd</strong> is proud to present <strong>LexisOne</strong>, a new iOS app designed to make language learning more natural, enjoyable, and intelligent.
+            Combining <em>AI-driven stories, explanations, and translations</em>, LexisOne helps learners read real content at their own level and build lasting confidence in any language.
           </p>
-          <a href="mailto:info@code-82.com" class="btn-custom px-6 py-3 rounded">Get in Touch</a>
+          <a
+              href="https://apps.apple.com/gb/app/lexisone/id6753789913"
+              target="_blank"
+              rel="noopener"
+          >
+            <img
+                src="/assets/badges/appstore-badge.svg"
+                alt="Download LexisOne on the App Store"
+                class="h-12"
+            />
+          </a>
+          <p class="text-[var(--paynes)] text-sm italic mt-2">
+            Coming soon to Android 📱
+          </p>
         </div>
         <div>
-          <img src="/assets/app-cafe.png" alt="Preview of the upcoming LexisOne iOS app" class="rounded shadow mx-auto">
+          <img
+              src="/assets/app-cafe.png"
+              alt="LexisOne app preview"
+              class="iphone-rounded mx-auto shadow"
+          >
         </div>
       </div>
     </section>
+
+
 
     <!-- Contact -->
     <section class="py-20 bg-[var(--paynes)] text-white text-center px-6">
