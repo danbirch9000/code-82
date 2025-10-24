@@ -1,11 +1,11 @@
 <template>
   <div class="px-6 py-20 max-w-4xl mx-auto">
     <header class="mb-12 text-center">
-      <h1 class="text-3xl font-bold mb-2 text-[var(--davys)]">LexisOne – Terms & Conditions</h1>
-      <p class="text-sm text-[var(--davys)]">Last updated: Oct 2025</p>
+      <h1 class="text-3xl font-bold mb-2 text-heading">LexisOne – Terms & Conditions</h1>
+      <p class="text-sm text-heading">Last updated: Oct 2025</p>
     </header>
 
-    <main class="prose max-w-none text-[var(--paynes)] leading-relaxed">
+    <main class="prose max-w-none text-primary leading-relaxed">
       <h2>1. Purpose of the App</h2>
       <p>LexisOne helps users learn and practise languages through reading. The App allows users to view side-by-side text in their native and target languages, listen to AI-generated audio, and receive contextual explanations of words and phrases (“Focuses”).</p>
 

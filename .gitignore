@@ -2,3 +2,4 @@
 .netlify
 dist/
 .dist
+node_modules/

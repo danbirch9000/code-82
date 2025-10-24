@@ -1,0 +1,45 @@
+@use './variables' as *;
+
+// Base styles
+body {
+  font-family: 'Inter', sans-serif;
+  color: $primaryText;
+}
+
+// Utilities mapping from older CSS vars to semantic classes
+.text-primary { color: $primaryText; }
+.text-heading { color: $headingText; }
+.bg-hero { background-color: $heroBg; }
+.bg-accent { background-color: $accentBg; }
+.bg-primary { background-color: $primaryText; }
+.bg-heading { background-color: $headingText; }
+
+// Components
+.btn-custom {
+  background-color: $brandYellow;
+  color: $headingText;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  &:hover { background-color: #e5e02d; }
+}
+
+.hero {
+  background-color: $heroBg;
+  /* Overlay gradient color comes from variables */
+  --hero-gradient: linear-gradient(#{$nyanza90}, #{$nyanza90});
+}
+
+// Common element styles
+.iphone-rounded {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+// Helper classes for shadows used in templates
+.drop-strong {
+  filter: drop-shadow(0 6px 15px $black50) drop-shadow(0 0 8px $white20);
+}
+
+.shadow-soft {
+  box-shadow: 0 8px 20px $black10;
+}

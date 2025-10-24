@@ -4,7 +4,7 @@
       <RouterLink to="/" aria-label="Code 82 Ltd Homepage">
         <img :src="logo" alt="Code 82 Ltd logo" class="max-h-12 w-auto object-contain">
       </RouterLink>
-      <nav class="text-sm text-[var(--paynes)] flex items-center gap-4 sm:gap-6">
+      <nav class="text-sm text-primary flex items-center gap-4 sm:gap-6">
         <RouterLink to="/lexisone" class="hover:underline">LexisOne</RouterLink>
         <a href="mailto:info@code-82.com" class="hover:underline">info@code-82.com</a>
       </nav>

@@ -1,11 +1,11 @@
 <template>
   <div class="px-6 py-20 max-w-4xl mx-auto">
     <header class="mb-12 text-center">
-      <h1 class="text-3xl font-bold mb-2 text-[var(--davys)]">LexisOne – Privacy Policy</h1>
-      <p class="text-sm text-[var(--davys)]">Last updated: October 2025</p>
+      <h1 class="text-3xl font-bold mb-2 text-heading">LexisOne – Privacy Policy</h1>
+      <p class="text-sm text-heading">Last updated: October 2025</p>
     </header>
 
-    <main class="prose max-w-none text-[var(--paynes)] leading-relaxed">
+    <main class="prose max-w-none text-primary leading-relaxed">
       <h2>1. Introduction</h2>
       <p>This Privacy Policy explains how Code 82 Ltd (“we”, “our”, “us”) collects, uses, and protects your information when you use the LexisOne mobile app (“the App”).</p>
 
@@ -45,7 +45,7 @@
       <p>📧 <a href="mailto:info@code-82.com">info@code-82.com</a><br>🏢 Code 82 Ltd, Halifax, United Kingdom</p>
     </main>
 
-    <footer class="mt-16 text-center text-sm text-[var(--davys)]">
+    <footer class="mt-16 text-center text-sm text-heading">
       © 2025 Code 82 Ltd · All rights reserved
     </footer>
   </div>

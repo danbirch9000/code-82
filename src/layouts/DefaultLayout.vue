@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white text-base text-[var(--paynes)] min-h-screen">
+  <div class="bg-white text-base text-primary min-h-screen">
     <AppHeader />
     <main class="pt-24">
       <slot />

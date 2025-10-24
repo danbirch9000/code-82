@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-6 bg-[var(--davys)] text-center text-sm text-gray-200 mt-12">
+  <footer class="py-6 bg-heading text-center text-sm text-gray-200 mt-12">
     <div class="space-x-2">
       <span>© 2025 Code 82 Ltd · All rights reserved</span>
       <span>·</span>

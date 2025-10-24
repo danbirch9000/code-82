@@ -1,0 +1,19 @@
+// Brand palette
+$nyanza: #9D9CD0;      // Cool gray
+$cambridge: #5570BB;   // Royal blue
+$paynes: #363F4D;      // Charcoal
+$davys: #2D2D33;       // Raisin black
+$icterine: #FAF33E;    // Keep brand yellow
+
+// Semantic variables
+$primaryText: $paynes;   // general body copy
+$headingText: $davys;    // headings and emphasis
+$heroBg: $nyanza;        // hero sections / light brand bg
+$accentBg: $cambridge;   // accent sections / panels
+$brandYellow: $icterine; // buttons / accents
+
+// Derived rgba values
+$nyanza90: rgba(157, 156, 208, 0.9);
+$black50: rgba(4, 6, 10, 0.5);
+$white20: rgba(255, 255, 255, 0.2);
+$black10: rgba(4, 6, 10, 0.1);
